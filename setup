@@ -1,6 +1,7 @@
 #!/bin.sh
 pkg update && pkg update
 pkg install zip
+termux-setup-storage
 
 cd
 cd ..
